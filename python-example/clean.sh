@@ -1,0 +1,1 @@
+docker rmi -f $(docker images | grep example-api | grep -v ubuntu | awk '{print $3}')

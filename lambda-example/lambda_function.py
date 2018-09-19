@@ -25,12 +25,12 @@ def lambda_handler(event, context):
 	# Not required for this demo, but here's a code example
 	#
 	#from influxdb import InfluxDBClient
-	#influxdb_host = os.environ['influxdb_host']
-	#influxdb_database = os.environ['influxdb_database']
-	#influxdb_port = os.environ['influxdb_port']
-	#influxdb_user = os.environ['influxdb_user']
-	#influxdb_password = os.environ['influxdb_password']
-	#db_influx = InfluxDBClient(host=influxdb_host, port=influxdb_port, username=influxdb_user, password=influxdb_password, database=influxdb_database, ssl=True)
+	#influxdb_host = os.environ['host']
+	#influxdb_database = os.environ['database']
+	#influxdb_port = os.environ['port']
+	#influxdb_user = os.environ['user']
+	#influxdb_password = os.environ['password']
+	#db_influx = InfluxDBClient(host=host, port=port, username=user, password=password, database=database, ssl=True)
 	print("--------[Getting data]---------------------------------")
 	bucket = event['bucket']
 	s3key = event['s3key']	

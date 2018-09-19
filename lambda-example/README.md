@@ -35,3 +35,9 @@ docker run -v $(pwd):/outputs -it amazonlinux:2016.09 \
 ```
 ./test_lambda.sh
 ```
+
+Once API Gateway is set up, update and run:
+
+```
+./test_api.sh
+```

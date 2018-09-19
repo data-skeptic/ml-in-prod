@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+python-example/creds.txt
 running.txt
 latest.txt
 current_container_id.txt

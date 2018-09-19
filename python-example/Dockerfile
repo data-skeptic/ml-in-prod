@@ -45,5 +45,6 @@ RUN pip install -r /files/requirements.txt
 
 COPY *.py /app/
 COPY api/*.py /app/api/
+COPY api/*.htm /app/api/
 EXPOSE 8888 9988
 ENTRYPOINT ["sh", "/util/startup.sh"]

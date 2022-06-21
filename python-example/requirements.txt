@@ -58,7 +58,7 @@ nbformat==4.4.0
 networkx==2.1
 notebook==5.4.1
 numba==0.37.0
-numpy==1.14.2
+numpy==1.22.0
 pandas==0.22.0
 pandocfilters==1.4.2
 pathlib2==2.3.0
